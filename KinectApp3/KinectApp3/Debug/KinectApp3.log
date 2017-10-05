@@ -1,0 +1,30 @@
+﻿Build started 2017/10/06 3:03:45.
+     1>Project "C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\KinectApp3\KinectApp3.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\KinectApp3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\\inc" /I"C:\opencv-3.3.0\build\install\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\msys64\home\yuta\kinect\myproject\kinect_xbox360_1\kinectapp3\kinectapp3\main.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\KinectApp3.exe.embed.manifest.res" Debug\KinectApp3_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\Debug\KinectApp3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86" /LIBPATH:"C:\opencv-3.3.0\build\install\x86\vc10\lib" Kinect10.lib opencv_core330d.lib opencv_highgui330d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\KinectApp3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\Debug\KinectApp3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\Debug\KinectApp3.lib" /MACHINE:X86 Debug\KinectApp3.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\KinectApp3.exe.embed.manifest" /manifest Debug\KinectApp3.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\KinectApp3.exe.embed.manifest.res" Debug\KinectApp3_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\Debug\KinectApp3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86" /LIBPATH:"C:\opencv-3.3.0\build\install\x86\vc10\lib" Kinect10.lib opencv_core330d.lib opencv_highgui330d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\KinectApp3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\Debug\KinectApp3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\Debug\KinectApp3.lib" /MACHINE:X86 Debug\KinectApp3.exe.embed.manifest.res
+         Debug\main.obj
+         KinectApp3.vcxproj -> C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\Debug\KinectApp3.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\KinectApp3.unsuccessfulbuild".
+         Touching "Debug\KinectApp3.lastbuildstate".
+     1>Done Building Project "C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\KinectApp3\KinectApp3\KinectApp3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.72
