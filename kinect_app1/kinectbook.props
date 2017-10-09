@@ -10,7 +10,7 @@
       <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;C:\opencv-3.3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Kinect10.lib;opencv_core330d.lib;opencv_highgui330d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Kinect10.lib;opencv_core330d.lib;opencv_highgui330d.lib;opencv_calib3d330d.lib;opencv_dnn330d.lib;opencv_features2d330d.lib;opencv_flann330d.lib;opencv_imgcodecs330d.lib;opencv_imgproc330d.lib;opencv_ml330d.lib;opencv_objdetect330d.lib;opencv_photo330d.lib;opencv_shape330d.lib;opencv_stitching330d.lib;opencv_superres330d.lib;opencv_video330d.lib;opencv_videoio330d.lib;opencv_videostab330d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)lib\x86;C:\opencv-3.3.0\build\install\x86\vc10\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
