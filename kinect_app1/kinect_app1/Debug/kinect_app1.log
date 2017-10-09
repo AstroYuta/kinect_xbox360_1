@@ -1,11 +1,11 @@
-﻿Build started 2017/10/10 0:19:31.
+﻿Build started 2017/10/10 0:43:53.
      1>Project "C:\msys64\home\Yuta\kinect\myproject\kinect_xbox360_1\kinect_app1\kinect_app1\kinect_app1.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\kinect_app1.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\\inc" /I"C:\opencv-3.3.0\build\install\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-     1>c:\msys64\home\yuta\kinect\myproject\kinect_xbox360_1\kinect_app1\kinect_app1\main.cpp(155): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\msys64\home\yuta\kinect\myproject\kinect_xbox360_1\kinect_app1\kinect_app1\main.cpp(168): warning C4018: '<' : signed/unsigned mismatch
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -24,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.23
+Time Elapsed 00:00:04.03
